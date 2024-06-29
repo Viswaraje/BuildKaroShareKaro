@@ -11,6 +11,7 @@ import ExplorePage from './pages/ExplorePage'
 import LikesPage from './pages/LikesPage'
 //components import
 import Sidebar from './components/Sidebar'
+import {Toaster} from "react-hot-toast"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -36,6 +37,7 @@ function App() {
 
    
     </Routes>
+    <Toaster />
   </div>
 </div>
    
